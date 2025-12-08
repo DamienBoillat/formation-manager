@@ -36,10 +36,10 @@ class Formation
         }
     }
 
-    /**
+    /*
      * Enregistre le Custom Post Type "formations".
      * Appeler ceci sur le hook "init".
-     */
+     *
     public static function register_post_type()
     {
         $labels = [
@@ -68,7 +68,7 @@ class Formation
         ];
 
         register_post_type( self::POST_TYPE, $args );
-    }
+    }*/
 
     /* ==================== CRUD STATIQUES ==================== */
 
